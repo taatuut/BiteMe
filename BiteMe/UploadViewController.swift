@@ -20,8 +20,8 @@ class UploadViewController: UIViewController {
         
         let contact = Contact(
             _id: ObjectId(),
-            name: "Daniel",
-            email: "Kioko")
+            name: "Emil Zegers",
+            email: "emil@basaltaura.nl")
         
         contatcsCollection.insertOne(contact) { (result) in
             switch result {
