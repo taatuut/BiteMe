@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B2046FB2498DCF800FF17A7 /* BiteMe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4B2046F92498DCF800FF17A7 /* BiteMe.xcdatamodeld */; };
+		4B2046FE2498E00000FF17A7 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2046FD2498E00000FF17A7 /* Contact.swift */; };
+		4B2047002498E10200FF17A7 /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2046FF2498E10200FF17A7 /* UploadViewController.swift */; };
+		4BDA06062498D5C200F5EE12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDA06052498D5C200F5EE12 /* AppDelegate.swift */; };
+		4BDA06082498D5C200F5EE12 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDA06072498D5C200F5EE12 /* SceneDelegate.swift */; };
+		4BDA060A2498D5C200F5EE12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDA06092498D5C200F5EE12 /* ViewController.swift */; };
+		4BDA060D2498D5C200F5EE12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BDA060B2498D5C200F5EE12 /* Main.storyboard */; };
+		4BDA060F2498D5C400F5EE12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BDA060E2498D5C400F5EE12 /* Assets.xcassets */; };
+		4BDA06122498D5C400F5EE12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BDA06102498D5C400F5EE12 /* LaunchScreen.storyboard */; };
+		A7D48F9843831045F676A57C /* Pods_BiteMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A6C787A8B91622D727CBDEE /* Pods_BiteMe.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		13EBEF0253FFE3F57C31B3F3 /* Pods-BiteMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BiteMe.release.xcconfig"; path = "Target Support Files/Pods-BiteMe/Pods-BiteMe.release.xcconfig"; sourceTree = "<group>"; };
+		18ECC61C6B6938D94BEE10F1 /* Pods-BiteMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BiteMe.debug.xcconfig"; path = "Target Support Files/Pods-BiteMe/Pods-BiteMe.debug.xcconfig"; sourceTree = "<group>"; };
+		4B2046FA2498DCF800FF17A7 /* BiteMe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BiteMe.xcdatamodel; sourceTree = "<group>"; };
+		4B2046FD2498E00000FF17A7 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		4B2046FF2498E10200FF17A7 /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
+		4BDA06022498D5C200F5EE12 /* BiteMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BiteMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BDA06052498D5C200F5EE12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4BDA06072498D5C200F5EE12 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4BDA06092498D5C200F5EE12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4BDA060C2498D5C200F5EE12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4BDA060E2498D5C400F5EE12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4BDA06112498D5C400F5EE12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4BDA06132498D5C400F5EE12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A6C787A8B91622D727CBDEE /* Pods_BiteMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BiteMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BDA05FF2498D5C200F5EE12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7D48F9843831045F676A57C /* Pods_BiteMe.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1ED61D4EB341D713D1C2CA87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A6C787A8B91622D727CBDEE /* Pods_BiteMe.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B2046FC2498DFEC00FF17A7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4B2046FD2498E00000FF17A7 /* Contact.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4BDA05F92498D5C200F5EE12 = {
+			isa = PBXGroup;
+			children = (
+				4BDA06042498D5C200F5EE12 /* BiteMe */,
+				4BDA06032498D5C200F5EE12 /* Products */,
+				EE83F30026E4C258B290A310 /* Pods */,
+				1ED61D4EB341D713D1C2CA87 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4BDA06032498D5C200F5EE12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BDA06022498D5C200F5EE12 /* BiteMe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BDA06042498D5C200F5EE12 /* BiteMe */ = {
+			isa = PBXGroup;
+			children = (
+				4B2046FC2498DFEC00FF17A7 /* Model */,
+				4BDA06052498D5C200F5EE12 /* AppDelegate.swift */,
+				4BDA06072498D5C200F5EE12 /* SceneDelegate.swift */,
+				4BDA06092498D5C200F5EE12 /* ViewController.swift */,
+				4BDA060B2498D5C200F5EE12 /* Main.storyboard */,
+				4BDA060E2498D5C400F5EE12 /* Assets.xcassets */,
+				4BDA06102498D5C400F5EE12 /* LaunchScreen.storyboard */,
+				4BDA06132498D5C400F5EE12 /* Info.plist */,
+				4B2046F92498DCF800FF17A7 /* BiteMe.xcdatamodeld */,
+				4B2046FF2498E10200FF17A7 /* UploadViewController.swift */,
+			);
+			path = BiteMe;
+			sourceTree = "<group>";
+		};
+		EE83F30026E4C258B290A310 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				18ECC61C6B6938D94BEE10F1 /* Pods-BiteMe.debug.xcconfig */,
+				13EBEF0253FFE3F57C31B3F3 /* Pods-BiteMe.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BDA06012498D5C200F5EE12 /* BiteMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BDA06162498D5C400F5EE12 /* Build configuration list for PBXNativeTarget "BiteMe" */;
+			buildPhases = (
+				7F487F4BA8B7AAFA62D745AF /* [CP] Check Pods Manifest.lock */,
+				4BDA05FE2498D5C200F5EE12 /* Sources */,
+				4BDA05FF2498D5C200F5EE12 /* Frameworks */,
+				4BDA06002498D5C200F5EE12 /* Resources */,
+				F4C608560D941F799020786F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BiteMe;
+			productName = BiteMe;
+			productReference = 4BDA06022498D5C200F5EE12 /* BiteMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BDA05FA2498D5C200F5EE12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Basalt Aura";
+				TargetAttributes = {
+					4BDA06012498D5C200F5EE12 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 4BDA05FD2498D5C200F5EE12 /* Build configuration list for PBXProject "BiteMe" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4BDA05F92498D5C200F5EE12;
+			productRefGroup = 4BDA06032498D5C200F5EE12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BDA06012498D5C200F5EE12 /* BiteMe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BDA06002498D5C200F5EE12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BDA06122498D5C400F5EE12 /* LaunchScreen.storyboard in Resources */,
+				4BDA060F2498D5C400F5EE12 /* Assets.xcassets in Resources */,
+				4BDA060D2498D5C200F5EE12 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7F487F4BA8B7AAFA62D745AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BiteMe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4C608560D941F799020786F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BiteMe/Pods-BiteMe-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BiteMe/Pods-BiteMe-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BiteMe/Pods-BiteMe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BDA05FE2498D5C200F5EE12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BDA060A2498D5C200F5EE12 /* ViewController.swift in Sources */,
+				4B2047002498E10200FF17A7 /* UploadViewController.swift in Sources */,
+				4B2046FB2498DCF800FF17A7 /* BiteMe.xcdatamodeld in Sources */,
+				4B2046FE2498E00000FF17A7 /* Contact.swift in Sources */,
+				4BDA06062498D5C200F5EE12 /* AppDelegate.swift in Sources */,
+				4BDA06082498D5C200F5EE12 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4BDA060B2498D5C200F5EE12 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BDA060C2498D5C200F5EE12 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4BDA06102498D5C400F5EE12 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BDA06112498D5C400F5EE12 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4BDA06142498D5C400F5EE12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4BDA06152498D5C400F5EE12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BDA06172498D5C400F5EE12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18ECC61C6B6938D94BEE10F1 /* Pods-BiteMe.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BiteMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = basaltaura.nl.BiteMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4BDA06182498D5C400F5EE12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13EBEF0253FFE3F57C31B3F3 /* Pods-BiteMe.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BiteMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = basaltaura.nl.BiteMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BDA05FD2498D5C200F5EE12 /* Build configuration list for PBXProject "BiteMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BDA06142498D5C400F5EE12 /* Debug */,
+				4BDA06152498D5C400F5EE12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BDA06162498D5C400F5EE12 /* Build configuration list for PBXNativeTarget "BiteMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BDA06172498D5C400F5EE12 /* Debug */,
+				4BDA06182498D5C400F5EE12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4B2046F92498DCF800FF17A7 /* BiteMe.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4B2046FA2498DCF800FF17A7 /* BiteMe.xcdatamodel */,
+			);
+			currentVersion = 4B2046FA2498DCF800FF17A7 /* BiteMe.xcdatamodel */;
+			path = BiteMe.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4BDA05FA2498D5C200F5EE12 /* Project object */;
+}
