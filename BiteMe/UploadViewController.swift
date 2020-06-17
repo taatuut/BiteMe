@@ -17,25 +17,35 @@ class UploadViewController: UIViewController {
     }
     
     func uploadContact() {
+        let dateFormatterGet = DateFormatter()
+        dateFormatterGet.dateFormat = "yyyy-MM-dd"
         
         let contact = Contact(
             _id: ObjectId(),
             name: "Emil Zegers",
-            email: "emil@basaltaura.nl")
+            email: "emil@basaltaura.nl",
+            doer: "gewone steekmug",
+            doerscientificname: "Culex pipiens",
+            notes: "Hinderlijk gezoem",
+            doer_pix: "PlatgeslagenMug",
+            bite_pix: "RodeZwellingOpLinkerknie",
+            doer_location: "52° 9′ NB, 5° 23′ OL",
+            doer_date: dateFormatterGet.date(from: "2020-06-18")!
+        )
         
         contatcsCollection.insertOne(contact) { (result) in
             switch result {
             case .failure(let e):
                 print("error inserting item, \(e.localizedDescription)")
                 DispatchQueue.main.async {
-                    let alert = UIAlertController(title: "OOPS!", message: "Something's wrong", preferredStyle: UIAlertController.Style.alert)
+                    let alert = UIAlertController(title: "Oops!", message: "Something's wrong", preferredStyle: UIAlertController.Style.alert)
                     alert.addAction(UIAlertAction(title: "Exit", style: UIAlertAction.Style.default, handler: nil))
                     self.present(alert, animated: true, completion: nil)
                 }
             case .success:
-                print("successfully inserted a document")
+                print("successfully inserted a bite")
                 DispatchQueue.main.async {
-                    let alert = UIAlertController(title: "Hurray!", message: "You've just uploaded your first document. Congrats!", preferredStyle: UIAlertController.Style.alert)
+                    let alert = UIAlertController(title: "BiteMe!", message: "You've just uploaded a bite. Itchy!", preferredStyle: UIAlertController.Style.alert)
                     alert.addAction(UIAlertAction(title: "Back", style: UIAlertAction.Style.default, handler: nil))
                     self.present(alert, animated: true, completion: nil)
                 }
@@ -44,3 +54,5 @@ class UploadViewController: UIViewController {
     }
 
 }
+
+

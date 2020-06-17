@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         if stitch.auth.isLoggedIn {
             self.present(UploadViewController(), animated: true)
         } else {
-            let alertController = UIAlertController(title: "Login to Stitch", message: "Anonymous Login", preferredStyle: .alert)
+            let alertController = UIAlertController(title: "Login to BiteMe", message: "Anonymous Login", preferredStyle: .alert)
             alertController.addAction(UIAlertAction(title: "Login", style: .default, handler: { [unowned self] _ -> Void in
                 stitch.auth.login(withCredential: AnonymousCredential()) { [weak self] result in
                     switch result {
